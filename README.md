@@ -23,7 +23,7 @@ This code demonstrates fine-tuning the TinyLlama ("TinyLlama/TinyLlama-1.1B-Chat
    - Create a JSON file named "wifuwork.json" with the following structure:
 
    ```json
-{
+   {
     "conversations": [
       {
         "instruction": "Convert the given code snippet into the specified format.",
@@ -40,6 +40,7 @@ This code demonstrates fine-tuning the TinyLlama ("TinyLlama/TinyLlama-1.1B-Chat
         "text": "This code snippet provides a set of responses to the input query \"Hey, what's up?\" The responses are designed to convey a high-spirited, cheerful, and casual tone.",
         "emotion": "high-spirited, cheerful, casual"
       },
+
    ```
 
    - Ensure your dataset reflects the type of conversations you want your AI to handle.
