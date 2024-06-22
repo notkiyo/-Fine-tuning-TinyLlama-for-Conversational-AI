@@ -1,5 +1,5 @@
 
-**README: Fine-tuning TinyLlama for Conversational AI**
+* Fine-tuning TinyLlama for Conversational AI**
 
 **Introduction**
 
