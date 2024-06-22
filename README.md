@@ -23,15 +23,23 @@ This code demonstrates fine-tuning the TinyLlama ("TinyLlama/TinyLlama-1.1B-Chat
    - Create a JSON file named "wifuwork.json" with the following structure:
 
    ```json
-   {
-     "conversations": [
-       {
-         "input": "Hey there!",
-         "responses": ["Hi! How can I help you today?"]
-       },
-       // Add more conversation entries here
-     ]
-   }
+{
+    "conversations": [
+      {
+        "instruction": "Convert the given code snippet into the specified format.",
+        "input": "Hey, what's up?",
+        "output": {
+          "responses": [
+            "Hey there! I'm full of energy today, ready to take on whatever comes my way! What about you?",
+            "Hey! I'm feeling super pumped, like I could conquer the world! What's going on with you?",
+            "Yo! I'm in high spirits, feeling like nothing can bring me down! How about you, ready to seize the day?",
+            "Sup! I'm all fired up and ready for action! What's up in your world?",
+            "Hey hey! I'm feeling lively and cheerful, like a ray of sunshine! What's the latest?"
+          ]
+        },
+        "text": "This code snippet provides a set of responses to the input query \"Hey, what's up?\" The responses are designed to convey a high-spirited, cheerful, and casual tone.",
+        "emotion": "high-spirited, cheerful, casual"
+      },
    ```
 
    - Ensure your dataset reflects the type of conversations you want your AI to handle.
